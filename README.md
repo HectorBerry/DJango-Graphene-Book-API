@@ -12,36 +12,21 @@ bash
 cd /path/to/your/project
 
 # Create a virtual environment named 'venv'
-python -m venv venv
-
+`python -m venv venv`
 Activating the Virtual Environment
-
-    Windows:
-
-    bash
-
-venv\Scripts\activate
-
-Unix or MacOS:
-
-bash
-
-    source venv/bin/activate
+`source venv/bin/activate`
 
 Installing Dependencies
 
 Once the virtual environment is activated, you can install project dependencies using pip.
-
-bash
-
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 Deactivating the Virtual Environment
 
 To deactivate the virtual environment, simply run:
-
-bash
-
-deactivate
+`deactivate`
 
 # Usage
+To start the server simply run(inside the venv):
+`python manage.py runserver`
+Then go to localhost:8000/graphql to query the api
