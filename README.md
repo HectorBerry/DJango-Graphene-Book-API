@@ -13,17 +13,21 @@ cd /path/to/your/project
 
 # Create a virtual environment named 'venv'
 `python -m venv venv`
+
 Activating the Virtual Environment
+
 `source venv/bin/activate`
 
 Installing Dependencies
 
 Once the virtual environment is activated, you can install project dependencies using pip.
+
 `pip install -r requirements.txt`
 
 Deactivating the Virtual Environment
 
 To deactivate the virtual environment, simply run:
+
 `deactivate`
 
 # Usage
