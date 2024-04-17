@@ -1,15 +1,13 @@
-Project Name
+# DJANGO GRAPHQL BOOK API
+This is a basic CRUD API using Django and Graphql with Graphene
 
-Short description or overview of your project.
-Setup
+# Setup
 
 To ensure a clean and isolated environment for your project, it's recommended to use a virtual environment.
 Creating a Virtual Environment
 
-bash
-
 # Navigate to your project directory
-cd /path/to/your/project
+cd /path/to/the/project
 
 # Create a virtual environment named 'venv'
 `python -m venv venv`
