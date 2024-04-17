@@ -1,0 +1,5 @@
+books/__pycache__
+books/migrations/
+core/__pycache__
+core/migrations
+venv/
