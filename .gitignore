@@ -3,3 +3,4 @@ books/migrations/
 core/__pycache__
 core/migrations
 venv/
+*.sqlite3
