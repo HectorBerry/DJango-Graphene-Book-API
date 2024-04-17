@@ -28,5 +28,7 @@ To deactivate the virtual environment, simply run:
 
 # Usage
 To start the server simply run(inside the venv):
+
 `python manage.py runserver`
+
 Then go to localhost:8000/graphql to query the api
